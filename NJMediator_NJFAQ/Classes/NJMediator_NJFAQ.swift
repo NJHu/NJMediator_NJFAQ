@@ -9,12 +9,9 @@ fileprivate let kMediator_Action_NativeFetchFAQController = "FAQControllerWithPa
 
 extension NJMediator {
 
-    public func Mediator_NJFAQ_PlayController(jsonData: Any) -> UIViewController? {
+    public func Mediator_NJFAQ_Controller() -> UIViewController? {
         
-        var params = [String: Any]()
-        params["jsonData"] = jsonData
-        
-        let result = self.perform(nameSpace: kMediator_Target_NameSpace, target: kMediator_Target_NJFAQ, action: kMediator_Action_NativeFetchFAQController, params: params, shouldCacheTarget: false)
+        let result = self.perform(nameSpace: kMediator_Target_NameSpace, target: kMediator_Target_NJFAQ, action: kMediator_Action_NativeFetchFAQController, params: nil, shouldCacheTarget: false)
 
         return result as? UIViewController
     }
