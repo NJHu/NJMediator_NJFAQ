@@ -1,0 +1,23 @@
+PODS:
+  - NJMediator (1.0.0)
+  - NJMediator_NJFAQ (1.0.0):
+    - NJMediator
+
+DEPENDENCIES:
+  - NJMediator_NJFAQ (from `../`)
+
+SPEC REPOS:
+  https://github.com/NJHu/NJSpecs.git:
+    - NJMediator
+
+EXTERNAL SOURCES:
+  NJMediator_NJFAQ:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NJMediator: 872a652d86089f39683bedec3f357666df3b56d4
+  NJMediator_NJFAQ: 8363629ec0ffa907ec34f10ac6615998913c8166
+
+PODFILE CHECKSUM: 6de1883c68ab9515c45cc02632540ec07caabce8
+
+COCOAPODS: 1.5.3
