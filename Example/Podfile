@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NJMediator_NJFAQ_Example' do
+  pod 'NJMediator_NJFAQ', :path => '../'
+
+  target 'NJMediator_NJFAQ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
